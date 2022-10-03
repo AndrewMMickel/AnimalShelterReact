@@ -21,10 +21,9 @@ function Header() {
         <React.Fragment>
             <div id="header" style={headerStyles}>
                 <NavigationTabs />
-                <div id="search-tweet">
+                <div id="search-petname">
                     <form>
-                        <input style={inputStyles} type="text" name="search" placeholder="Search.." />
-                        <input style={inputStyles} id="tweet" type="text" name="tweet" placeholder="Tweet" />
+                        <input style={inputStyles} id="petname" type="text" name="petname" placeholder="PetName" />
                     </form>
                 </div>
             </div>

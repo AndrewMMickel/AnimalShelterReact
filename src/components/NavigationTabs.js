@@ -19,7 +19,7 @@ function NavigationTabs() {
             <div id="navigation-tabs" className="col-md-6" style={navTabStyles}>
                 <button type="button" className="nav-btn" style={navBtnStyles}>Home</button>
                 <button type="button" className="nav-btn" style={navBtnStyles}>Notifications</button>
-                <button type="button" className="nav-btn" style={navBtnStyles}>Messages</button>
+                <button type="button" className="nav-btn" style={navBtnStyles}>Applications</button>
             </div>
         </React.Fragment>
     );
