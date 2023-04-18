@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.animal-comp {
+  width: 40%;
+  height: auto;
+  margin: 1% auto;
+  display: block;
+  justify-content: space-evenly;
+  border: solid;
+  padding-left: 0px;
+  color: aqua;
+  border-radius: 7px;
+  text-align: center;
+  transition: .3s ease-in-out;
+
+}
+
+.animal-comp:hover {
+  box-shadow: 10px 10px lightblue;
+  width: 41%;
+  font-size: large;
+  transform: translateX(-15px);
+
+}
+
+.animal-img {
+  max-width: 99%;
+  height: auto;
+  justify-self: center;
+}

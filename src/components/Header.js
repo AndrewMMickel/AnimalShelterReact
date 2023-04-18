@@ -4,7 +4,8 @@ import NavigationTabs from "./NavigationTabs";
 const inputStyles = {
     height: "30px",
     borderRadius: "25px",
-    border: "3px solid #69a9f0",
+    border: "3px solid #00FFFF",
+    textAlign: "center"
 }
 
 const headerStyles = {
@@ -12,6 +13,7 @@ const headerStyles = {
     margin: "0 auto",
     display: "flex",
     justifyContent: "space-between"
+
 }
 
 
