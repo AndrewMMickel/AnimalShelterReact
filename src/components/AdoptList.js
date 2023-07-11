@@ -47,16 +47,17 @@ function AdoptList(props) {
     return (
 
         <React.Fragment>
+            <hr />
             {props.adoptListArray.map((animal, index) =>
 
                 <Animal
-                    // whenAnimalClicked={props.onAnimalSelection}
+                    whenAnimalClicked={props.onAnimalSelection}
                     name={animal.name}
                     species={animal.species}
                     gender={animal.gender}
                     picture={animal.picture}
                     description={animal.description}
-                    key={index} />
+                    key={animal.index} />
             )}
         </React.Fragment>
     );

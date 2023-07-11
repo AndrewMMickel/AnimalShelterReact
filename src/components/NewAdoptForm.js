@@ -1,31 +1,14 @@
 import React from "react";
 import { v4 } from 'uuid';
 import PropTypes from "prop-types";
-
+import ReusableForm from "./ReusableForm";
 function NewAdoptForm(props) {
 
     return (
         <React.Fragment>
-            <form onSubmit={handleNewAdoptFormSubmission}>
-                <input
-                    type='text'
-                    name='name'
-                    placeholder='Animal name' />
-                <input
-                    type='text'
-                    name='species'
-                    placeholder='species' />
-                <input
-                    type='text'
-                    name='gender'
-                    placeholder='Gender' />
-                <input
-                    type='text'
-                    name='description'
-                    placeholder='Description' />
-
-                <button type='submit'>Add!</button>
-            </form>
+            <ReusableForm
+                formSubmissionHandler={handleNewAdoptFormSubmission}
+                buttonText="Submit adoption!" />
         </React.Fragment>
     );
 
